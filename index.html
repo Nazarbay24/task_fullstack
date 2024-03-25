@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main_block">
+        <form>
+            <input id="input_name" type="text" name="name" placeholder="Name">
+            <input id="input_email" type="email" name="email" placeholder="Email">
+            <button id="add_user_btn">Add user</button>
+        </form>
+
+        <div id="users_list">
+            <h3>Users to pay:</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>To pay</th>
+                    </tr>
+                </thead>
+                <tbody id="table_body">
+
+                </tbody>
+            </table>
+
+            <button id="reset_btn">Reset</button>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
